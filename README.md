@@ -22,11 +22,12 @@ Feel free to contribute more artifacts.
 ## HOWTO
 Execute vaccination_manager.py on the machine you wish to protect with the following flags:
 
+```
 -s create only static artifacts
 -d create only dynamic artifacts, the script needs to keep running if you want it to protect the endpoint
 -a create both static and dynamic indicators, the script needs to keep running if you want it to protect the endpoint
--w update the artifact list from an online repository, if you wish to use it **install the _requests_ module**.
-
+-w update the artifact list from an online repository, if you wish to use it install python's requests module
+```
 Note that if you wish to test the dynamic vaccination module you'll need to either re-run on each reboot.
 
 
