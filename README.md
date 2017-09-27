@@ -14,7 +14,7 @@ The core of the repository will create artifacts simulating an environment tryin
 2. Sandbox
 3. Security products
 4. Forensic tools
-5. The malware iteslf (AKA infection marks)
+5. The malware iteslf (AKA infection markers)
 
 Feel free to contribute more artifacts.
 
@@ -34,11 +34,11 @@ Note that if you wish to test the dynamic vaccination module you'll need to eith
 ## Samples used in the Demo
  
 ### NotPetya
-Destructive ransomware which turned out to be a wiper, has an infection mark and searches Norton\Symantec and Kaspersky related processes
+Destructive ransomware which turned out to be a wiper, has an infection marker and searches Norton\Symantec and Kaspersky related processes
 027cc450ef5f8c5f653329641ec1fed91f694e0d229928963b30f6b0d7d3a745
 
 ### WannaCry
-A ransomware which used the ETERNALBLIE\DOUBLEPULSAR exploits to infect machines all over the world, has an infection mark
+A ransomware which used the ETERNALBLIE\DOUBLEPULSAR exploits to infect machines all over the world, has an infection marker
 ed01ebfbc9eb5bbea545af4d01bf5f1071661840480439c6e5babe8e080e41aa
  
 ### Andromeda\Gamarue Bot
