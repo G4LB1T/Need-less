@@ -65,7 +65,10 @@ processes_to_mimic = [
     "procmon.exe",
     "avp.exe",
     "NS.exe",
-    "mspaint.exe"
+    "mspaint.exe",
+    "Taskmgr.exe",
+    "dwwatcher.exe",
+    "McTray.exe"
 ]
 
 mutex = [
