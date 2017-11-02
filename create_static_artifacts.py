@@ -34,10 +34,10 @@ def create_reg_key(hive, k):
     create registry key
     currently supports only 32bit machines
     """
-    print "\t+ creating {0}".format("HKLM", "\\", k)
+    print "\t+ creating {0}{1}{2}".format("HKLM", "\\", k)
     try:
         wreg.CreateKey(hive, k)
-        print "\t+ {0} was created!\n".format("HKLM", "\\", k)
+        print "\t+ {0}{1}{2} was created!\n".format("HKLM", "\\", k)
     except Exception as e:
         error_on_create(k, e)
 
@@ -47,11 +47,11 @@ def create_reg_val(k, v_name, v_data):
     create and set registry value
     currently supports only 32bit machines and HKLM registry keys and values
     """
-    print "\t+ creating {0}".format(k, "\\", v_name)
+    print "\t+ creating {0}{1}{2}".format(k, "\\", v_name)
     try:
         kh = wreg.OpenKey(wreg.HKEY_LOCAL_MACHINE, k, 0, wreg.KEY_ALL_ACCESS)
         wreg.SetValueEx(kh, v_name, 0, wreg.REG_SZ, v_data)
-        print "\t+ {0} was created!\n".format(k, "\\", v_name)
+        print "\t+ {0}{1}{2} was created!\n".format(k, "\\", v_name)
     except Exception as e:
         error_on_create(k + "\\" + v_name, e)
 
