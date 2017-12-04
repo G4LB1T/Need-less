@@ -27,7 +27,11 @@ file_list = [
     "C:\\WINDOWS\\system32\\vboxtray.exe",
     "C:\\WINDOWS\\system32\\VBoxControl.exe",
     "C:\\Windows\\perfc.dll",
-    "C:\\Windows\\perfc.dat"
+    "C:\\Windows\\perfc.dat",
+    "C:\\email.doc",
+    "C:\\email.htm",
+    "C:\\123\\email.doc",
+    "C:\\123\\email.docx"
 ]
 
 key_list = [
