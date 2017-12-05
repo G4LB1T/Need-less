@@ -1,7 +1,8 @@
 dir_list = [
     "C:\\program files\\VMware",
     "C:\\program files\\oracle\\virtualbox guest additions",
-    "C:\\Program Files\\Malware Bytes"
+    "C:\\Program Files\\Malware Bytes",
+    "C:\\123"
 ]
 
 file_list = [
